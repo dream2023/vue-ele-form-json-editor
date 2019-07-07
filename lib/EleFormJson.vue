@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import VJsoneditor from 'v-jsoneditor'
+import VJsoneditor from 'v-jsoneditor/src/index'
 import formMixin from 'vue-ele-form/lib/mixins/formMixin'
 
 export default {
