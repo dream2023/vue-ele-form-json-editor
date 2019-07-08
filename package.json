@@ -23,7 +23,7 @@
     "v-jsoneditor"
   ],
   "dependencies": {
-    "v-jsoneditor": "^1.2.0"
+    "v-jsoneditor": "^1.2.1"
   },
   "devDependencies": {
     "core-js": "^2.6.5",
