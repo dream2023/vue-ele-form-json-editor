@@ -14,7 +14,7 @@ import VJsoneditor from 'v-jsoneditor/src/index'
 import formMixin from 'vue-ele-form/lib/mixins/formMixin'
 
 export default {
-  name: 'json',
+  name: 'json-editor',
   mixins: [formMixin],
   props: {
     value: [Array, Object]

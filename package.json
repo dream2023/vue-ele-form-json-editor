@@ -1,7 +1,7 @@
 {
-  "name": "vue-ele-form-json",
+  "name": "vue-ele-form-json-editor",
   "description": "vue-ele-form 的 json 编辑器",
-  "version": "0.1.4",
+  "version": "0.1.0",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dream2023/vue-ele-form-json"
+    "url": "https://github.com/dream2023/vue-ele-form-json-editor"
   },
   "main": "lib/index.js",
-  "homepage": "https://github.com/dream2023/vue-ele-form-json",
+  "homepage": "https://github.com/dream2023/vue-ele-form-json-editor",
   "keywords": [
     "vue-ele-form",
     "json 编辑器",
@@ -26,18 +26,18 @@
     "v-jsoneditor": "^1.2.1"
   },
   "devDependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.10",
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-plugin-eslint": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
+    "core-js": "^2.6.5",
     "element-ui": "^2.10.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.5",
-    "vue-ele-form": "^0.1.2",
+    "vue": "^2.6.10",
+    "vue-ele-form": "^0.1.4",
     "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {

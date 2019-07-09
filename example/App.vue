@@ -22,7 +22,7 @@ export default {
       formDesc: {
         conf: {
           label: '系统配置',
-          type: 'json'
+          type: 'json-editor'
         }
       }
     }
