@@ -1,6 +1,6 @@
 <template>
   <el-card
-    header="ele-form-json 演示"
+    header="ele-form-json-editor 演示"
     shadow="never"
     style="max-width: 1250px;margin: 20px auto;"
   >

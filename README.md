@@ -8,7 +8,7 @@
 
 vue-ele-form-json-editor 做为 vue-ele-form 的第三方扩展, 用于编辑 JSON 对象或者数组
 
-![image](https://raw.githubusercontent.com/dream2023/images/master/WX20190707-214144.jcnnyvdjz.png)
+![image](https://raw.githubusercontent.com/dream2023/images/master/WX20190709-094708.flexgkgnr9b.png)
 
 ## 安装
 
