@@ -32,3 +32,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.jsoneditor-container.min-box {
+  min-width: auto !important;
+}
+</style>

@@ -4,12 +4,14 @@
     shadow="never"
     style="max-width: 1250px;margin: 20px auto;"
   >
-    <ele-form
-      :form-data="formData"
-      :form-desc="formDesc"
-      :request-fn="handleRequest"
-      @request-success="handleSuccess"
-    />
+    <div style="width:250px">
+      <ele-form
+        :form-data="formData"
+        :form-desc="formDesc"
+        :request-fn="handleRequest"
+        @request-success="handleSuccess"
+      />
+    </div>
   </el-card>
 </template>
 
