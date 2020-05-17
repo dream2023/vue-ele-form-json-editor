@@ -19,18 +19,18 @@ npm install vue-ele-form-json-editor --save
 ## 使用
 
 ```js
-import EleForm from 'vue-ele-form'
-import EleFormJsonEditor from 'vue-ele-form-json-editor'
+import EleForm from "vue-ele-form";
+import EleFormJsonEditor from "vue-ele-form-json-editor";
 // 注册 ele-form
 Vue.use(EleForm, {
   // 可以在这里设置全局的 json-editor 属性
-  'json-editor': {
+  "json-editor": {
     height: 300
   }
-})
+});
 
 // 注册 json 组件
-Vue.component('json-editor', EleFormJson)
+Vue.component("json-editor", EleFormJson);
 ```
 
 ```js
@@ -40,7 +40,11 @@ formDesc: {
     type: 'json-editor', // 只需要在这里指定为 json 即可
     // 属性参考: https://github.com/yansenlei/VJsoneditor
     attrs: {
-      height: 300
+      height: 300,
+      plus: true,
+      options: {
+        mode: 'code'
+      }
     }
   }
 }

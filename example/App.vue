@@ -4,7 +4,7 @@
     shadow="never"
     style="max-width: 1250px;margin: 20px auto;"
   >
-    <div style="width:250px">
+    <div>
       <ele-form
         :form-data="formData"
         :form-desc="formDesc"
@@ -18,7 +18,7 @@
 <script>
 export default {
   name: 'App',
-  data () {
+  data() {
     return {
       formData: {},
       formDesc: {
@@ -30,15 +30,15 @@ export default {
     }
   },
   methods: {
-    handleRequest (data) {
+    handleRequest(data) {
       console.log(data)
       return Promise.resolve()
     },
-    handleSuccess () {
+    handleSuccess() {
       this.$message.success('提交成功')
     }
   },
-  mounted () {}
+  mounted() {}
 }
 </script>
 

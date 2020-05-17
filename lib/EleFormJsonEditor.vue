@@ -19,10 +19,13 @@ export default {
   props: {
     value: [Array, Object]
   },
-  data () {
+  data() {
     return {
       defaultAttrs: {
         plus: false,
+        options: {
+          mode: 'code'
+        },
         height: '400px'
       }
     }
