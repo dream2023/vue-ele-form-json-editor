@@ -36,7 +36,7 @@ export default {
   methods: {
     handleChange(val) {
       if (!this.emitData) {
-        this.emitData = debounce(1000, value => {
+        this.emitData = debounce(400, value => {
           this.$emit('input', value)
         })
       }
