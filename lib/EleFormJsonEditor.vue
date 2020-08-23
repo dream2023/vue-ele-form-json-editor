@@ -2,16 +2,16 @@
   <v-jsoneditor
     :class="desc.class"
     :style="desc.style"
-    @input="handleChange"
     v-bind="attrs"
     v-model="newValue"
-    v-on="desc.on"
+    v-on="onEvents"
   />
 </template>
 
 <script>
 import VJsoneditor from 'v-jsoneditor/src/index'
-import formMixin from 'vue-ele-form/lib/mixins/formMixin'
+import { formMixin } from 'vue-ele-form'
+import { debounce } from 'throttle-debounce'
 
 export default {
   name: 'json-editor',
@@ -32,6 +32,17 @@ export default {
   },
   components: {
     VJsoneditor
+  },
+  methods: {
+    handleChange(val) {
+      if (!this.emitData) {
+        this.emitData = debounce(1000, value => {
+          console.log(value)
+          this.$emit('input', value)
+        })
+      }
+      this.emitData(val)
+    }
   }
 }
 </script>
