@@ -10,7 +10,7 @@
 
 <script>
 import VJsoneditor from 'v-jsoneditor/src/index'
-import { formMixin } from 'vue-ele-form'
+import formMixin from 'vue-ele-form/lib/mixins/formMixin'
 import { debounce } from 'throttle-debounce'
 
 export default {
